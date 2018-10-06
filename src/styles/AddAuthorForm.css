@@ -1,0 +1,28 @@
+.AddAuthorForm {
+  width: 80%;
+  margin: 50px 10%;
+}
+
+.AddAuthorForm__input {
+  margin-bottom: 20px;
+  outline: 0;
+}
+
+.AddAuthorForm__input > input[type=text] {
+  outline: 0;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.AddAuthorForm__input > input:focus[type=text] {
+  border: 1px solid #65d;
+  box-shadow: inset 1px 1px 5px -2px #aaf,
+  inset -1px -1px 5px -2px #aaf,
+  -1px -1px 5px -2px #aaf,
+  1px 1px 5px -2px #aaf;
+}
+
+.AddAuthorForm__input > label {
+  display: block;
+}
